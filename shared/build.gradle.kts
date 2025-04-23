@@ -40,7 +40,7 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
-            //put your multiplatform dependencies here
+            implementation("org.jetbrains.compose.runtime:runtime:1.7.3")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
